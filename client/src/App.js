@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home/home";
 import Login from "./components/Login/login";
 import Profile from "./components/Profile/profile";
-import Settings from "./components/Settings/settings"
+import Settings from "./components/Register/register"
 import "./App.css";
 
 const App = () => {
@@ -23,6 +23,9 @@ const App = () => {
 					</li>
 					<li>
 						<Link to="/settings">Settings</Link>
+					</li>
+					<li>
+						<Link to="/register">Register</Link>
 					</li>
 				</ul>
 				<hr />
