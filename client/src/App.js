@@ -4,6 +4,7 @@ import Home from "./components/Home/home";
 import Login from "./components/Login/login";
 import Profile from "./components/Profile/profile";
 import Settings from "./components/Settings/settings"
+import Settings from "./components/register/register"
 import "./App.css";
 
 const App = () => {
@@ -24,6 +25,9 @@ const App = () => {
 					<li>
 						<Link to="/settings">Settings</Link>
 					</li>
+					<li>
+						<Link to="/register">Settings</Link>
+					</li>
 				</ul>
 				<hr />
 
@@ -32,6 +36,7 @@ const App = () => {
 					<Route path="/login" element={<Login />} />
 					<Route path="/profile" element={<Profile />} />
 					<Route path="/settings" element={<Settings />} />
+					<Route path="/register" element={<Settings />} />
 				</Routes>
 			</div>
 		</Router>
